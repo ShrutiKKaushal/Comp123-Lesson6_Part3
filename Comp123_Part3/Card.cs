@@ -36,5 +36,11 @@ namespace Comp123_Part3
             this._face = face;
             this._suit = suit;
         }
+
+        //Public Methods
+        public void Show()
+        {
+            Console.WriteLine("{0} of {1}", this._face, this._suit);
+        }
     }
 }
